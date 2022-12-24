@@ -1,0 +1,63 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: montserrat;
+}
+h1{
+    font-family: Fraunces;
+    color: hsl(212, 21%, 14%);
+}
+span{
+font-size: 25px;
+font-weight: bold;
+color: hsl(158, 36%, 37%);
+margin-right: 10px;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    margin: 10% 25%;
+    width: 600px;
+    
+}
+.img1{
+    display: block;
+    width: 280px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.img2{
+    display: none;
+}
+.box{
+    width: 270px;
+    margin: 10px;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    padding: 20px;
+}
+.buy{
+    margin-top: 10px;
+}
+@media only screen and (max-width: 375px) {
+    .container{
+        display: flexbox;
+        background-color: white;
+        border-radius: 10px;
+        margin: 10px ;
+        width: 350px;
+     }
+   .img1{
+     display: none;
+   
+     }
+   .img2{
+     display: grid;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     width: 350px;
+   }
+   .box{
+     width: 340px;
+   }
+    
+  }
